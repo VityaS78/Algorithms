@@ -1,0 +1,65 @@
+package lesson_8;
+
+public class Main {
+    public static void main(String[] args) {
+        MyDoubleHashProbbingHashMap<Character, Integer> hm = new MyDoubleHashProbbingHashMap<>();
+//        MyLinearProbbingHashMap<Character, Integer> hm = new MyLinearProbbingHashMap<>();
+        hm.put('a', 1);
+        hm.put('b', 1);
+        hm.put('c', 1);
+        hm.put('d', 1);
+        hm.put('e', 1);
+        hm.put('f', 1);
+        hm.put('g', 1);
+        hm.put('h', 1);
+        hm.put('i', 1);
+        hm.put('j', 1);
+        hm.put('k', 1);
+        hm.put('l', 1);
+        hm.put('m', 1);
+        hm.put('n', 1);
+        hm.put('o', 1);
+        hm.put('p', 1);
+        hm.put('q', 1);
+        hm.put('r', 1);
+        hm.put('s', 1);
+        hm.put('t', 1);
+        hm.put('u', 1);
+        hm.put('v', 1);
+        hm.put('w', 1);
+        hm.put('x', 1);
+        hm.put('y', 1);
+        hm.put('z', 1);
+        hm.put('e', 1);
+        hm.put('p', 1);
+        hm.put('b', 1);
+        hm.put('a', 1);
+        hm.put('g', 1);
+        hm.put('S', 1);
+        hm.put('x', 1);
+        hm.put('A', 1);
+        hm.put('D', 1);
+        hm.put('c', 1);
+        hm.put('a', 1);
+        hm.put('g', 1);
+        hm.put('O', 1);
+        hm.put('K', 1);
+        hm.put('h', 1);
+        hm.put('H', 1);
+        System.out.println(hm.size());
+        hm.del('c');
+        hm.del('x');
+        hm.del('e');
+        hm.del('g');
+        hm.del('a');
+        System.out.println(hm.size());
+        hm.del('p');
+        System.out.println(hm.size());
+        hm.del('A');
+        hm.del('q');
+        hm.del('P');
+        hm.del('H');
+        hm.del('K');
+        System.out.println(hm.size());
+    }
+}
